@@ -13,6 +13,7 @@ Feature: A dictionary with advanced default value handling
         Given I have an increment-by-one defaultdict2
         Even though it does not contain the key 6
         Still I should be able to retrieve the value 7 for the key 6
+        And then it should contain the key 6
 
     Scenario: Dictiness
         Given I have an increment-by-one defaultdict2
